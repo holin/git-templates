@@ -9,7 +9,7 @@ RED='\033[00;31m'
 YELLOW='\033[00;33m'
 BLUE='\033[00;34m'
 
-FORBIDDEN=( 'DO NOT COMMIT' 'debug' 'debugger' 'byebug' )
+FORBIDDEN=( 'DO NOT COMMIT' 'console.log' 'debugger' 'byebug' )
 FOUND=''
 
 for j in "${FORBIDDEN[@]}"
